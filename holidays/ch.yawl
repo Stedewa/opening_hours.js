@@ -3,27 +3,27 @@
 # https://fr.wikipedia.org/wiki/Jours_f%C3%A9ri%C3%A9s_en_Suisse
 PH:
   - {'name': 'Neujahrstag', 'fixed_date': [1, 1]}
-  - {'name': 'Berchtoldstag', 'fixed_date': [1, 2] 'only_states': [Aargau, Bern, Fribourg, Glarus, Jura, Neuenburg, Obwalden, Schaffhausen, Solothurn, Waadt, Zug, Zürich]}
+  - {'name': 'Berchtoldstag', 'fixed_date': [1, 2] 'only_states': [Aargau, Bern, Fribourg, Glarus, Jura, Neuenburg, Obwalden, Schaffhausen, Solothurn, Waadt, Zug, ZÃ¼rich]}
   - {'name': 'Epiphanie', 'fixed_date': [1, 6] 'only_states': [Schwyz, Tessin, Uri]}
-  - {'name': 'Instauration de la République', 'fixed_date': [3, 1] 'only_states': [Neuenburg]}
+  - {'name': 'Instauration de la RÃ©publique', 'fixed_date': [3, 1] 'only_states': [Neuenburg]}
   - {'name': 'Josefstag', 'fixed_date': [3, 19] 'only_states': [Luzern, Nidwalden, Schwyz, Tessin, Uri, Wallis]}
-  - {'name': 'Karfreitag', 'variable_date': easter, 'offset': -2, 'only_states': [Aargau, Appenzell Innerrhoden, Appenzell Ausserrhoden, Bern, Basel-Landschaft, Basel-Stadt, Fribourg, Genf, Glarus, Graubünden, Jura, Luzern, Neuenburg, Nidwalden, Obwalden, Saint-Gall, Schaffhausen, Solothurn, Schwyz, Thurgau, Uri, Waadt, Wallis, Zug, Zürich]}
+  - {'name': 'Karfreitag', 'variable_date': easter, 'offset': -2, 'only_states': [Aargau, Appenzell Innerrhoden, Appenzell Ausserrhoden, Bern, Basel-Landschaft, Basel-Stadt, Fribourg, Genf, Glarus, GraubÃ¼nden, Jura, Luzern, Neuenburg, Nidwalden, Obwalden, Saint-Gall, Schaffhausen, Solothurn, Schwyz, Thurgau, Uri, Waadt, Wallis, Zug, ZÃ¼rich]}
   - {'name': 'Ostermontag', 'variable_date': easter, 'offset': 1}
-  - {'name': 'Tag der Arbeit', 'fixed_date': [5, 1], 'only_states': [Basel-Stadt, Fribourg, Genf, Jura, Neuenburg, Schaffhausen, Tessin , Uri, Zürich]}
+  - {'name': 'Tag der Arbeit', 'fixed_date': [5, 1], 'only_states': [Basel-Stadt, Fribourg, Genf, Jura, Neuenburg, Schaffhausen, Tessin , Uri, ZÃ¼rich]}
   - {'name': 'Auffahrt', 'variable_date': easter, 'offset': 39}
   - {'name': 'Pfingstmontag', 'variable_date': easter, 'offset': 50}
   - {'name': 'Fronleichnam', 'variable_date': easter, 'offset': 60    }
-  - {'name': 'Commémoration du plébiscite', 'fixed_date': [6, 23], 'only_states': [Jura]}
+  - {'name': 'CommÃ©moration du plÃ©biscite', 'fixed_date': [6, 23], 'only_states': [Jura]}
   - {'name': 'Saint-Pierre et Paul', 'fixed_date': [6, 29], 'only_states': [Tessin]}
   - {'name': 'Bundesfeier', 'fixed_date': [8, 1]}
-  - {'name': 'Mariä Himmelfahrt', 'fixed_date': [8, 15]'only_states': [Aargau, Appenzell Innerrhoden, Fribourg, Jura, Luzern, Nidwalden, Obwalden, Solothurn,Schwyz, Tessin, Uri,Wallis, Zug]}
-  - {'name': 'Jeûne Genevois', 'fixed_date': nextTuesday31Aug, 'only_states': [Genf]}
-  - {'name': 'Jeûne Fédéral', 'fixed_date': nextSunday21Sep, 'only_states': [Neuenburg, Waadt]}
+  - {'name': 'MariÃ¤ Himmelfahrt', 'fixed_date': [8, 15]'only_states': [Aargau, Appenzell Innerrhoden, Fribourg, Jura, Luzern, Nidwalden, Obwalden, Solothurn,Schwyz, Tessin, Uri,Wallis, Zug]}
+  - {'name': 'JeÃ»ne Genevois', 'fixed_date': nextTuesday31Aug, 'only_states': [Genf]}
+  - {'name': 'JeÃ»ne FÃ©dÃ©ral', 'fixed_date': nextSunday21Sep, 'only_states': [Neuenburg, Waadt]}
   - {'name': 'Allerheiligen', 'fixed_date': [11, 1], 'only_states': [Appenzell Innerrhoden, Fribourg, Glarus,Jura, Luzern, Nidwalden, Obwalden,Saint-Gall, Solothurn, Tessin, Uri, Wallis, Zug]}
-  - {'name': 'Mariä Empfängnis', 'fixed_date': [12, 8], 'only_states': [Fribourg, Luzern, Nidwalden, Obwalden,Tessin, Uri, Wallis, Zug]}
+  - {'name': 'MariÃ¤ EmpfÃ¤ngnis', 'fixed_date': [12, 8], 'only_states': [Fribourg, Luzern, Nidwalden, Obwalden,Tessin, Uri, Wallis, Zug]}
   - {'name': 'Weihnachtstag', 'fixed_date': [12, 25]}
-  - {'name': 'Stephanstag ', 'fixed_date': [12, 26], 'only_states': [Aargau, Appenzell Innerrhoden, Appenzell Ausserrhoden, Bern, Basel-Landschaft, Basel-Stadt, Fribourg, Glarus, Graubünden, Luzern, Neuenburg, Nidwalden, Obwalden, Saint-Gall, Schaffhausen, Solothurn, Schwyz, Thurgau, Tessin, Uri, Zug, Zürich]}
-  - {'name': 'Restauration de la République', 'fixed_date': [12, 31] 'only_states': [Genf]}
+  - {'name': 'Stephanstag ', 'fixed_date': [12, 26], 'only_states': [Aargau, Appenzell Innerrhoden, Appenzell Ausserrhoden, Bern, Basel-Landschaft, Basel-Stadt, Fribourg, Glarus, GraubÃ¼nden, Luzern, Neuenburg, Nidwalden, Obwalden, Saint-Gall, Schaffhausen, Solothurn, Schwyz, Thurgau, Tessin, Uri, Zug, ZÃ¼rich]}
+  - {'name': 'Restauration de la RÃ©publique', 'fixed_date': [12, 31] 'only_states': [Genf]}
   
 
   # source : http://www.edk.ch/dyn/11707.php
@@ -36,7 +36,7 @@ Waadt:
       '2018': [2, 17, 2, 25]
       '2019': [2, 23, 3, 3]
       '2020': [2, 15, 2, 23]
-    - name: Frühling
+    - name: FrÃ¼hling
       '2018': [3, 30, 4, 15]
       '2019': [4, 13, 4, 28]
       '2020': [4, 10, 4, 26]
@@ -57,22 +57,20 @@ Genf:
   _nominatim_url: 'https://nominatim.openstreetmap.org/reverse?format=json&lat=46.2017559&lon=6.1466014&zoom=18&addressdetails=1'
   SH:
     - name: Sport
-      '2018': [2, 17, 2, 25]
-      '2019': [2, 23, 3, 3]
-      '2020': [2, 15, 2, 23]
-    - name: Frühling
-      '2018': [3, 30, 4, 15]
-      '2019': [4, 13, 4, 28]
-      '2020': [4, 10, 4, 26]
+      '2018': [2, 10, 2, 18]
+      '2019': [2, 16, 2, 24]
+      '2020': [2, 8, 2, 16]
+    - name: FrÃ¼hling
+      '2018': [3, 29, 4, 9]
+      '2019': [4, 18, 4, 28]
+      '2020': [4, 9, 4, 19]
     - name: Sommer
-      '2018': [7, 7, 8, 28]
-      '2019': [7, 6, 8, 25]
-      '2020': [7, 4, 8, 23]
+      '2018': [6, 30, 8, 28]
+      '2019': [6, 29, 8, 25]
+      '2020': [6, 27, 8, 23]
     - name: Herbst
-      '2018': [10, 13, 10, 28]
-      '2019': [10, 12, 10, 27]
-      '2020': [10, 10, 10, 25]
+      '2018': [10, 22, 10, 28]
+      '2019': [10, 19, 10, 27]
     - name: Weihnachtsferien
       '2018': [12, 24, 1, 6]
       '2019': [12, 21, 1, 5]
-      '2020': [12, 19, 1, 3]
